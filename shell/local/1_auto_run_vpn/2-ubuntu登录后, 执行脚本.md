@@ -5,10 +5,14 @@
 $ gnome-session-properties：
 ```
         
-会弹出一个“启动应用程序首选项”的菜单，添加一个启动项，
-名称，注释随便输入。
-命令的地方输入：
+会弹出一个“启动应用程序首选项”的菜单，
 
+![首选项界面](bootstrap_setting.png)
+
+添加一个启动项，
+
+- 名称，注释随便输入。
+- 命令的地方输入：
 ```bash
 terminator -l jimi_layout -m -x /home/jimi/autorun_jimi/auto_start_vpn.sh
 ```
