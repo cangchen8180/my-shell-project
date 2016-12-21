@@ -17,14 +17,16 @@ spawn sudo openvpn client.ovpn
 # 可以使用which expect 查看expect 安装的路径
 expect "*password for jimi*"
 send "jimi\r"
+# 等待1s
+#sleep 1
 
 expect "*Private Key Password*"
-send "your password"
+send "your password\r"
 
 # 结束方式一：
 # 如果没有这一句登录完成后会退出，而不是留在远程终端上。如果你只是登录过去执行
-expect eof
+#expect eof
 
 # 结束方式二：
 # 执行完成后保持交互状态，把控制权交给控制台，这个时候就可以手工操作了。
-#interact
+interact

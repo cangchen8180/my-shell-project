@@ -1,4 +1,4 @@
-# ubuntu添加自动执行脚本的两种方式
+# ubuntu添加自动执行脚本的两种方式<div style="color:red">（系统启动时）</div>
 ## 方式一、编辑rc.local脚本
 rc.local脚本是一个ubuntu开机后会自动执行的脚本，我们可以在该脚本内添加命令行指令。
 该脚本位于/etc/路径下，需要root权限才能修改。该脚本具体格式如下：
@@ -58,4 +58,4 @@ exit 0
     ```bash
     $ sudo update-rc.d -f auto_start_vpn.sh remove
     ```
-    
+
