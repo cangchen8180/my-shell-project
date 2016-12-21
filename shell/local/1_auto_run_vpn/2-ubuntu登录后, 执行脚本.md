@@ -9,7 +9,7 @@ $ gnome-session-properties：
 
 ![首选项界面](bootstrap_setting.png)
 
-添加一个启动项，
+添加一个启动项
 
 - 名称，注释随便输入。
 - 命令的地方输入：
