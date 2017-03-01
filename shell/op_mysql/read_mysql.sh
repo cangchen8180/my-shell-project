@@ -18,7 +18,6 @@ echo "${result}" > result.txt
 # 或
 # ${MYSQL} -h127.0.0.1 -u${USER} -p${PASSWORD} -D ${DATABASE} -e "${QUERY}" --skip-column-names > result.txt
 
-
 # ----------- echo使用注意 -----------
 # 注意：echo "$result" 的时候一定要加上双引号，不然导出的数据会挤在一行
 #echo ${result}
